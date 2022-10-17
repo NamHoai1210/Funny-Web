@@ -1,0 +1,101 @@
+@media(min-width:1024px) {}
+
+@media((min-width:740px)and (max-width:1023px)) {}
+
+@media(max-width:1023px) {
+    .buy-ticket {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .footer-icon {
+        letter-spacing: 8px;
+    }
+}
+
+@media(max-width:739px) {
+    header {
+        overflow: hidden;
+    }
+
+    header .search-btn {
+        display: none;
+    }
+
+    header .mobile-menu-btn {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav>li {
+        display: block;
+        width: 100%;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    .subnav>li>a {
+        color: white;
+        padding: 12px 36px;
+    }
+
+    button.nav-item {
+        width: 100%;
+    }
+
+    .section-general {
+        padding-bottom: 0;
+    }
+
+    .content-row {
+        flex-wrap: wrap;
+    }
+
+    .content-row .about-img {
+        width: 45%;
+        margin-bottom: 16px;
+    }
+
+
+    .s-col-full {
+        width: 100%;
+    }
+
+    .modal-header .section-heading {
+        font-size: 15px;
+    }
+
+    .modal {
+        font-size: 12px;
+    }
+
+    .full-width-btn {
+        width: 100%;
+    }
+
+    .slider-content {
+        top: 100%;
+    }
+
+    .slider-content .slider-title {
+        font-size: 1em;
+        margin: 0;
+    }
+
+    .slider-content .slider-detail {
+        font-size: 0.6em;
+    }
+
+    #copyright {
+        font-size: 0.7em;
+    }
+}
